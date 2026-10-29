@@ -99,6 +99,8 @@ description: A code style file.  Use for large code changes, not needed for smal
 
 * Things should still work offline.  Copy needed resources locally, rather than using the CDN.
 
+* Strip leading and trailing whitespace from user entered text that obviously shouldn't have it.
+
 ## User Experience
 
 * There should be a quick start guide,  It should take less than five minutes to figure out what the software does, if you want to use it, and how to set it up
