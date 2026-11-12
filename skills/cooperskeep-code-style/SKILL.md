@@ -147,8 +147,6 @@ description: A code style file.  Use for large code changes, not needed for smal
 
 * Simplicity is a valuable heuristic, but not the primary priority.
 
-* Minimize the need for documentation: use patterns people already know.
-
 * If it's hard to explain, it's a bad idea(ZoP)
 
 * Don't repeat yourself, and don't do the same thing in multiple ways, such as using both client and server side templating
@@ -216,6 +214,11 @@ description: A code style file.  Use for large code changes, not needed for smal
 
 * Do not skip critical tests because features they depend on are not available, fix the underlying issue.
 
+## Documentation
+
+* Minimize the need for documentation: use patterns people already know.
+
+* Keep documentation high level: Only what is needed to use the thing, put any internal details in code comments instead.
 
 ## Specific Technologies
 
