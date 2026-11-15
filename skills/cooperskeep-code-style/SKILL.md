@@ -65,6 +65,8 @@ description: A code style file.  Use for large code changes, not needed for smal
 
 * Keep user and hardware error in mind
 
+* Use  strong static typing with the narrowest possible types.  Don't have implicit "any" types.
+
 * Always have undo buttons or confirmation for critical actions
 
 * Validate inputs, and functions that cause persistent effects.
