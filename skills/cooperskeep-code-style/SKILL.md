@@ -65,7 +65,7 @@ description: A code style file.  Use for large code changes, not needed for smal
 
 * Keep user and hardware error in mind
 
-* Use  strong static typing with the narrowest possible types.  Don't have implicit "any" types.
+* Use strong static typing with the narrowest possible types.  Don't have implicit "any" types.
 
 * Always have undo buttons or confirmation for critical actions
 
@@ -132,6 +132,8 @@ description: A code style file.  Use for large code changes, not needed for smal
 ## Aesthetics of the Architecture
 
 * Design your APIs as if we're working on am extremely popular library, used by millions of developers
+
+* Import things up front unless you need to defer for performance or runtime flexibilty.  Don't do it just to fix circular imports, restructure modules so you don't have to.
 
 * Holonomic control: Maintain options and the ability to arbitrarliy modifiy parameters without affecting other parts of the system, except for industry standards that are extremely unlikely to change for the life of the project.
 
